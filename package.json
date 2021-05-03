@@ -1,33 +1,41 @@
 {
-    "name": "Cake-crud",
-    "version": "1.0.0",
-    "description": "A simple crud system with node js",
-    "main": "index.js",
-    "scripts": {
-      "test": "text",
-      "dev": "nodemon index.js",
-      "start": "node index.js"
-    },
-    "keywords": [
-      "nodejs",
-      "mongodb",
-      "crud",
-      "heroku"
-    ],
-    "author": "Adriano Vital",
-    "license": "ISC",
-    "bugs": {},
-    "dependencies": {
-      "body-parser": "^1.19.0",
-      "connect-flash": "^0.1.1",
-      "dotenv": "^8.2.0",
-      "ejs": "^2.7.1",
-      "express": "^4.17.1",
-      "express-validator": "^6.2.0",
-      "heroku": "^7.53.0",
-      "mongoose": "^5.12.7",
-      "nodemon": "^2.0.7",
-      "pug": "^3.0.2",
-      "update": "^0.7.4"
-    }
-  }
+  "name": "cake-crud",
+  "version": "1.0.0",
+  "description": "A simple crud system with node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "text",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodejs",
+    "mongodb",
+    "crud",
+    "heroku"
+  ],
+  "author": "Adriano Vital",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^8.2.0",
+    "ejs": "^2.7.1",
+    "express": "^4.17.1",
+    "express-validator": "^6.2.0",
+    "heroku": "^7.53.0",
+    "mongoose": "^5.12.7",
+    "nodemon": "^2.0.7",
+    "pug": "^3.0.2",
+    "update": "^0.7.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vitaladriano/Cake-Dublin-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vitaladriano/Cake-Dublin-API/issues"
+  },
+  "homepage": "https://github.com/vitaladriano/Cake-Dublin-API#readme"
+}
